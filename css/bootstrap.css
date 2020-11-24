@@ -370,7 +370,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.img-center{
+  text-align: center;
+}
 .img-rounded {
   border-radius: 6px;
 }
