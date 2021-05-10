@@ -114,19 +114,22 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .gtco-nav #gtco-logo {
-  font-size: 30px;
+  /* font-size: 30px;
   line-height: 1;
   margin: 0;
   padding: 0;
-  font-weight: bold;
+  font-weight: bold; */
+  width: 100%;
+  max-width: 120px;
+  height: auto;
 }
 .gtco-nav #gtco-logo em {
-  color: #fff;
+  /* color: #fff;
   font-weight: 100;
   font-style: normal;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
-  transition: 0.2s;
+  transition: 0.2s; */
 }
 .gtco-nav #gtco-logo a {
   padding: 0px 10px;
@@ -511,7 +514,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-practice-areas,
 #gtco-our-team,
 #gtco-contact {
-  padding: 5em 0;
+  padding: 3em 0;
   clear: both;
 }
 
@@ -686,6 +689,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .heading-colored {
   color: #ff7d20;
+  font-weight: bold;
+  /* font-size: 2rem; */
 }
 
 .read-more i {
